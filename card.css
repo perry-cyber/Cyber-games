@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+10+Charted&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+.container {
+    margin-top: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+
+.cards {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2FMojo_Melee_Hero_Shot_2880x1560_c48a8ce605%2FMojo_Melee_Hero_Shot_2880x1560_c48a8ce605.png&w=3840&q=75);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+@media (max-width:861px) {
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:699px) {
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:488px) {
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card1 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2FParallel_cover_51cb35d87b%2FParallel_cover_51cb35d87b.jpg&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.card2 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2FFeline_Fiendz_Deck_5_27436ceee3%2FFeline_Fiendz_Deck_5_27436ceee3.png&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.card3 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2Fmetafighter_game_cover_ccc7fd119b%2Fmetafighter_game_cover_ccc7fd119b.jpg&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.card4 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2FFOAD_Stickers_93c6b43f4a%2FFOAD_Stickers_93c6b43f4a.png&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.card5 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2FFiresky_cover_126cc83256%2FFiresky_cover_126cc83256.png&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.card6 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2Fthumbnail_25fd119833%2Fthumbnail_25fd119833.png&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.card7 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2FDookey_Dash_Unclogged_cover_babc3e8e03%2FDookey_Dash_Unclogged_cover_babc3e8e03.webp&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.card8 {
+  border-radius: 4px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-color: red yellow green blue;
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://gam3s.gg/_next/image/?url=https%3A%2F%2Fassets.polkastarter.gg%2FOne_Tap_cover_4581a16503%2FOne_Tap_cover_4581a16503.png&w=1080&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+
+.card8:hover {
+
+    transform: scale(1.1);
+}
+
+.card7:hover {
+
+    transform: scale(1.1);
+}
+
+.card6:hover {
+
+    transform: scale(1.1);
+}
+
+.card5:hover {
+
+    transform: scale(1.1);
+}
+
+.card4:hover {
+
+    transform: scale(1.1);
+}
+
+.card3:hover {
+
+    transform: scale(1.1);
+}
+
+.card2:hover {
+
+    transform: scale(1.1);
+}
+
+.card1:hover {
+
+    transform: scale(1.1);
+}
+
+.title {
+  background-color: #00000086;
+  width: 100%;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title a {
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.description a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.7s ease-in-out;
+  font-size: 10px;
+}
+.description a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+
+.headCon{
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: #0f041fac;
+    padding-left: 20px;
+    height: 65px;
+
+}
+
+.headCon ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.logo img{
+    padding-top: 6px;
+    height: 60px;
+}
+
+
+.headCon ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 26px;
+}
+
+@media (max-width:861px) {
+    .headCon ul li a{
+        font-size: 20px;
+    }
+}
+@media (max-width:699px) {
+    .headCon ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width:488px) {
+    .headCon ul li a{
+        font-size: 13px;
+    }
+}
+
+
+.foot{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    max-width: 100%;
+    background-color: #1f094886;
+    color: whitesmoke;
+   justify-content: space-evenly;
+   
+}
+
+.foot p{
+    font-family: "Jersey 10", sans-serif;
+}
+@media (max-width:861px) {
+    .foot p{
+        font-size: 20px;
+    }
+}
+@media (max-width:699px) {
+    .foot p{
+        font-size: 16px;
+    }
+}
+@media (max-width:488px) {
+    .foot p{
+        font-size: 13px;
+    }
+}
+
+.fot{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo2 img{
+    height: 30px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+@media (max-width:699px) {
+    .contact{
+        gap: 25px;
+    }
+}
+@media (max-width:488px) {
+    .contact{
+        gap: 20px;
+    }
+}
+
+#year{
+    font-family: "Jersey 10", sans-serif;
+}
